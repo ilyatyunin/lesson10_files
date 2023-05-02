@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.betboom'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter:5.8.1',
+            'com.codeborne:selenide:6.13.1',
+            'com.codeborne:pdf-test:1.5.0',
+            'com.codeborne:xls-test:1.4.3',
+            'com.opencsv:opencsv:5.7.1'
+    )
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
