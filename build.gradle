@@ -15,7 +15,8 @@ dependencies {
             'com.codeborne:selenide:6.13.1',
             'com.codeborne:pdf-test:1.5.0',
             'com.codeborne:xls-test:1.4.3',
-            'com.opencsv:opencsv:5.7.1'
+            'com.opencsv:opencsv:5.7.1',
+            'com.google.code.gson:gson:2.10.1'
     )
 }
 
